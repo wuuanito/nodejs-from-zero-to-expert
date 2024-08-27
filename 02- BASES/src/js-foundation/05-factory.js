@@ -1,3 +1,6 @@
+const {v4:uuidv4} =require ('uuid');
+const getAge = require('get-age');
+
 
 
 const buildPerson = ({name,cumpleaños}) =>{
@@ -6,10 +9,10 @@ const buildPerson = ({name,cumpleaños}) =>{
 
 
     return {
-        id: new Date().getTime(),
+        id: uuidv4(),
         name:name,
         cumpleaños:cumpleaños,
-        edad: new Date().getFullYear()- new Date(cumpleaños).getFullYear(),
+        edad: getAge(cumpleaños),
     }
 
 }
