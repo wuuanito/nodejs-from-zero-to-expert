@@ -1,0 +1,24 @@
+{
+  "name": "02--bases",
+  "version": "1.0.0",
+  "description": "Mi primera app real de Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuuanito/nodejs-from-zero-to-expert.git"
+  },
+  "author": "Juan Frauca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wuuanito/nodejs-from-zero-to-expert/issues"
+  },
+  "homepage": "https://github.com/wuuanito/nodejs-from-zero-to-expert#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
