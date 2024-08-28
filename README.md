@@ -1,26 +1,56 @@
+# Node.js: De Cero a Experto 🚀
 
-# NODE.JS DE CERO A EXPERTO 
+Documentación de mi viaje de aprendizaje de Node.js, desde nivel principiante hasta alcanzar un nivel experto.
 
-Documentación de mi viaje de aprendizaje de Node.js desde nivel principiante hasta experto
+## 📋 Requisitos e Instalaciones Recomendadas
 
+Para un entorno de desarrollo eficiente, recomiendo instalar las siguientes herramientas:
 
-## Instalaciones recomendadas
+- **[Visual Studio Code](https://code.visualstudio.com/)**: Editor de código fuente
+- **[Postman](https://www.postman.com/)**: Plataforma para desarrollo de API
+- **[MongoDB Compass](https://www.mongodb.com/products/compass)**: Interfaz gráfica para MongoDB
+- **[TablePlus](https://tableplus.com/)**: Herramienta de gestión de bases de datos
+- **[Git](https://git-scm.com/)**: Sistema de control de versiones
+- **[Node.js](https://nodejs.org/)**: Entorno de ejecución para JavaScript
+- **Explorador Web**: Google Chrome, Firefox, Edge
+- **[Docker Desktop](https://www.docker.com/products/docker-desktop)**: Plataforma para contenerización y gestión de contenedores
 
-- Visual Studio Code
-- Postman
-- MongoFb Compass
-- TablePlus
-- Git
-- Node
-- Explorador Web(Google Chrome,Firefox,Edge)
-- Docker Desktop
+### 🐳 Imágenes de Docker
 
-### Imagenes de Docker
-* docker pull mongo:6.0.6
-* docker pull postgres:15.3
+Para usar MongoDB y PostgreSQL en contenedores Docker:
 
-## USO DE NODEMON
+```bash
+docker pull mongo:6.0.6
+docker pull postgres:15.3
+```
 
+## 🔄 Uso de Nodemon
+
+Para instalar Nodemon como dependencia de desarrollo:
+
+```bash
 npm install --save-dev nodemon
+```
 
-## DEPENDENCIAS
+## 📦 DEPENDENCIAS
+
+Estas son algunas de las dependencias que estoy utilizando en mi proyecto:
+
+- [Axios](https://github.com/axios/axios): Cliente HTTP basado en promesas
+- [Winston](https://github.com/winstonjs/winston): Librería para logging
+
+## 🏗️ TYPESCRIPT
+
+Para configurar TypeScript en el proyecto:
+
+1. Instalar TypeScript y los tipos de Node.js como dependencias de desarrollo:
+
+```bash
+npm i -D typescript @types/node
+```
+
+2. Inicializar el archivo de configuración de TypeScript (puede configurarse según tus necesidades):
+
+```bash
+npx tsc --init --outDir dist/ --rootDir src
+```
