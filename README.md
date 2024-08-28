@@ -24,3 +24,7 @@ Documentación de mi viaje de aprendizaje de Node.js desde nivel principiante ha
 npm install --save-dev nodemon
 
 ## DEPENDENCIAS
+- Axios
+- Winston
+
+# TYPESCRIPT
