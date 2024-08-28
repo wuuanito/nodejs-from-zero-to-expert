@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-from-zero-to-expert",
+  "version": "1.0.0",
+  "description": "Documentación de mi viaje de aprendizaje de Node.js desde nivel principiante hasta experto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

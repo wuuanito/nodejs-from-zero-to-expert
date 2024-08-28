@@ -21,6 +21,12 @@ console.log(juan);
 */
 
 const {getPokemonById}= require('./js-foundation/06.5-AsyncAwait');
+const {buildLogger} = require('./plugins');
+
+const log = buildLogger('app.js');
+
+log.log('Hola Mundo');
+log.error('Algo fallo');
 
 getPokemonById(4)
 .then((pokemon)=>console.log(pokemon))
