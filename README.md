@@ -22,3 +22,10 @@ Para usar MongoDB y PostgreSQL en contenedores Docker:
 ```bash
 docker pull mongo:6.0.6
 docker pull postgres:15.3
+
+## Uso de Nodemon
+
+Para instalar Nodemon como dependencia de desarrollo:
+
+```bash
+npm install --save-dev nodemon
