@@ -1,6 +1,6 @@
 const { getAge, getUUID } = require("../plugins");
 
-const buildMakePerson = ({getUUID, getAge}) => {
+const buildMakePerson = ({ getUUID, getAge }) => {
   return ({ name, cumpleaños }) => {
     return {
       id: getUUID(),
@@ -10,9 +10,6 @@ const buildMakePerson = ({getUUID, getAge}) => {
     };
   };
 };
-
-
-
 
 module.exports = {
   buildMakePerson,

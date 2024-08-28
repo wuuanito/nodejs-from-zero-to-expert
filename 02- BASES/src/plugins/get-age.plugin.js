@@ -1,12 +1,10 @@
-const getAgePlugin = require('get-age');
+const getAgePlugin = require("get-age");
 
+const getAge = (cumpleaños) => {
+  if (!cumpleaños) return new Error("Cumpleaños es requerido");
+  return getAgePlugin(cumpleaños);
+};
 
-const getAge = (cumpleaños)=>{
-
-    if(!cumpleaños) return new Error ('Cumpleaños es requerido');
-    return getAgePlugin(cumpleaños);
-}
-
-module.exports={
-    getAge
-}
+module.exports = {
+  getAge,
+};
