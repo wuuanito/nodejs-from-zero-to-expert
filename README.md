@@ -31,3 +31,24 @@ Para instalar Nodemon como dependencia de desarrollo:
 ```bash
 npm install --save-dev nodemon
 ```
+## DEPENDENCIAS
+
+Estas son algunas de las dependencias que estoy utilizando en mi proyecto:
+
+- Axios: Cliente HTTP basado en promesas.
+- Winston: Librería para logging.
+
+## TYPESCRIPT
+
+Para configurar TypeScript en el proyecto:
+- Instalar TypeScript y los tipos de Node.js como dependencias de desarrollo:
+```bash
+npm i -D typescript @types/node
+```
+- Inicializar el archivo de configuración de TypeScript (puede configurarse según tus necesidades):
+```bash
+npx tsc --init --outDir dist/ --rootDir src
+```
+
+
+
