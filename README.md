@@ -29,8 +29,8 @@ npm install --save-dev nodemon
 
 # TYPESCRIPT
 
-```java
+```npm
 		
-		//bloque de codigo...
+		npm i -D typescript @types/node
 		
 
