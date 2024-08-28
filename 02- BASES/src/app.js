@@ -5,6 +5,23 @@ require('./js-foundation/05-factory');
 
 console.log(emailTemplate);
 
+const {buildMakePerson} = require('./js-foundation/05-factory');
+const {getAge,getUUID} = require('./plugins');
+
+
+
+
+const makePerson = buildMakePerson({getUUID,getAge});
+
+const obj= {
+  name:'juan',
+  cumpleaños:'1997-08-29'
+}
+
+const juan = makePerson(obj);
+
+console.log(juan);
+
 
 /*getUserById(1,(error,user)=>{
     if(error){
