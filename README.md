@@ -28,3 +28,9 @@ npm install --save-dev nodemon
 - Winston
 
 # TYPESCRIPT
+
+```java
+		
+		//bloque de codigo...
+		
+		```
