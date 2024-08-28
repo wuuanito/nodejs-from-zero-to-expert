@@ -1,36 +1,24 @@
+# Node.js: De Cero a Experto
 
-# NODE.JS DE CERO A EXPERTO 
+Documentación de mi viaje de aprendizaje de Node.js, desde nivel principiante hasta alcanzar un nivel experto.
 
-Documentación de mi viaje de aprendizaje de Node.js desde nivel principiante hasta experto
+## Requisitos e Instalaciones Recomendadas
 
+Para un entorno de desarrollo eficiente, recomiendo instalar las siguientes herramientas:
 
-## Instalaciones recomendadas
+- **Visual Studio Code**: Editor de código fuente.
+- **Postman**: Plataforma para desarrollo de API.
+- **MongoDB Compass**: Interfaz gráfica para MongoDB.
+- **TablePlus**: Herramienta de gestión de bases de datos.
+- **Git**: Sistema de control de versiones.
+- **Node.js**: Entorno de ejecución para JavaScript.
+- **Explorador Web**: Google Chrome, Firefox, Edge.
+- **Docker Desktop**: Plataforma para contenerización y gestión de contenedores.
 
-- Visual Studio Code
-- Postman
-- MongoFb Compass
-- TablePlus
-- Git
-- Node
-- Explorador Web(Google Chrome,Firefox,Edge)
-- Docker Desktop
+### Imágenes de Docker
 
-### Imagenes de Docker
-* docker pull mongo:6.0.6
-* docker pull postgres:15.3
+Para usar MongoDB y PostgreSQL en contenedores Docker:
 
-## USO DE NODEMON
-
-npm install --save-dev nodemon
-
-## DEPENDENCIAS
-- Axios
-- Winston
-
-# TYPESCRIPT
-
-```npm
-		
-		npm i -D typescript @types/node
-		
-
+```bash
+docker pull mongo:6.0.6
+docker pull postgres:15.3
