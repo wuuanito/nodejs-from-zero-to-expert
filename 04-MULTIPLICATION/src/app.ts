@@ -1,3 +1,15 @@
 
+import {yarg} from "./config/plugins/yargs.plugin";
 
-console.log(process.argv);
+
+(async()=>{
+    await main();
+})();
+
+async function main(){
+
+    console.log(yarg);
+
+}
+
+
