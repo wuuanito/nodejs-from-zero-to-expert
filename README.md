@@ -38,6 +38,7 @@ Estas son algunas de las dependencias que estoy utilizando en mi proyecto:
 
 - [Axios](https://github.com/axios/axios): Cliente HTTP basado en promesas
 - [Winston](https://github.com/winstonjs/winston): Librería para logging
+- [Yargs](https://www.npmjs.com/package/yargs): Yargs le ayuda a crear herramientas de línea de comandos interactivas, analizando argumentos y generando una interfaz de usuario elegante.
 
 ## 🏗️ TYPESCRIPT
 
