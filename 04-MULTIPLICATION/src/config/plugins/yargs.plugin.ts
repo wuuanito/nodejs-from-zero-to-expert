@@ -20,6 +20,18 @@ export const yarg = yargs(process.argv)
     demandOption: false,
     describe: 'Show Multiplication table '
 })
+.option('n',{
+    alias:'name',
+    type:'string',
+    default:'multiplication-table',
+    describe:'File Name'
+})
+.option('d',{
+    alias:'destination',
+    type:'string',
+    default:'outputs',
+    describe:'File Destination'
+})
 .check((argv,options)=>{
 
     return true;
